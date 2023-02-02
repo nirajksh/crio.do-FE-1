@@ -1,0 +1,27 @@
+body {
+  background-color: snow;
+}
+h1 {
+  color: teal;
+}
+article {
+  background-color: honeydew;
+}
+.book-title1 {
+  color: cadetblue;
+}
+.book-title2 {
+  color: red;
+}
+p {
+  color: grey;
+}
+#developer {
+  background-color: green;
+}
+.link-item:hover {
+  color: cadetblue;
+}
+.link-item:visited {
+  color: red;
+}

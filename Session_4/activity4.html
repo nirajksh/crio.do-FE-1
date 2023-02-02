@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Activity</title>
+    <style>
+      main {
+        background-color: red;
+        color: white;
+      }
+
+      .main {
+        background-color: blue;
+      }
+
+      #main {
+        background-color: green;
+        color: black;
+      }
+      #main {
+        color: cadetblue;
+      }
+      .grand-parent {
+        color: red;
+        background-color: yellow;
+        height: 5px;
+        width: 100px;
+      }
+      .parent {
+        color: steelblue;
+        background-color: lightcyan;
+        width: 200px;
+      }
+      .child {
+        color: blueviolet;
+      }
+      p {
+        color: rgb(120, 255, 0) !important;
+      }
+
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main
+      class="main"
+      id="main"
+      style="background-color: turquoise; color: purple;"
+    >
+      <p>This is a para inside child</p>
+    </main>
+    <p>kfhajaksan</p>
+    <section class="grand-parent">
+      <div class="parent">
+        <p class="child">This is a para inside child</p>
+      </div>
+    </section>
+  </body>
+</html>

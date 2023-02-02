@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Positioning</title>
+    <style>
+      .parent {
+        background-color: #212121;
+        margin: auto;
+        width: 256px;
+        height: 256px;
+        position: relative;
+      }
+      #child-1 {
+        background-color: #ff5f78;
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        /* top: 2rem; */
+      }
+      .heading {
+        position: sticky;
+        top: 16rem;
+        left: 16rem;
+        background-color: blue;
+        display: none;
+      }
+      #child-2 {
+        background-color: #fffd6e;
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        bottom: 2rem;
+      }
+
+      #child-3 {
+        background-color: #8ffda7;
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        bottom: 4rem;
+        left: 2rem;
+      }
+      section {
+        position: relative;
+        z-index: -2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="heading">Game of Boxes</div>
+    <section>
+      <div class="parent">
+        <div id="child-1"><br /></div>
+        <div id="child-2"><br /></div>
+        <div id="child-3"><br /></div>
+      </div>
+      <div class="parent">
+        <div id="child-1"><br /></div>
+        <div id="child-2"><br /></div>
+        <div id="child-3"><br /></div>
+      </div>
+      <div class="parent">
+        <div id="child-1"><br /></div>
+        <div id="child-2"><br /></div>
+        <div id="child-3"><br /></div>
+      </div>
+      <div class="parent">
+        <div id="child-1"><br /></div>
+        <div id="child-2"><br /></div>
+        <div id="child-3"><br /></div>
+      </div>
+      <div class="parent">
+        <div id="child-1"><br /></div>
+        <div id="child-2"><br /></div>
+        <div id="child-3"><br /></div>
+      </div>
+    </section>
+  </body>
+</html>
